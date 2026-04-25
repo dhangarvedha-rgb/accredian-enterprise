@@ -2,10 +2,10 @@
 
 A production-grade enterprise learning platform landing page, inspired by [enterprise.accredian.com](https://enterprise.accredian.com/), built with Next.js 15 (App Router), TypeScript, and Tailwind CSS.
 
-## 🚀 Live Demo
+##  Live Demo
 Deploy to Vercel (instructions below)
 
-## 📦 Tech Stack
+##  Tech Stack
 - **Framework**: Next.js 16 (App Router)
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS + custom CSS
@@ -13,7 +13,7 @@ Deploy to Vercel (instructions below)
 - **API**: Next.js API Routes (mock lead capture)
 - **Deployment**: Vercel-ready
 
-## ✅ Features Built
+##  Features Built
 
 ### Landing Page Sections
 1. **Navbar** — Sticky with scroll progress bar, active link tracking, mobile hamburger menu, glass blur effect
@@ -43,7 +43,7 @@ Deploy to Vercel (instructions below)
 - `POST /api/leads` — Captures form submissions with validation
 - `GET /api/leads` — Admin endpoint to view collected leads
 
-## 🛠️ Setup
+##  Setup
 
 ```bash
 git clone <your-repo>
@@ -60,7 +60,7 @@ npm run build
 npm start
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 app/
@@ -85,14 +85,14 @@ app/
         └── Contact.tsx
 ```
 
-## 🚀 Deploy to Vercel
+##  Deploy to Vercel
 
 1. Push to GitHub
 2. Go to [vercel.com](https://vercel.com) → New Project
 3. Import your repository
 4. Click **Deploy** — no env vars needed
 
-## 🤖 AI Usage
+##  AI Usage
 
 This project was built with Claude (Anthropic) as the primary AI assistant:
 
@@ -111,7 +111,7 @@ This project was built with Claude (Anthropic) as the primary AI assistant:
 - Mobile breakpoints refined for Hyderabad market device patterns
 - Content rewritten to be original (not copied from reference site)
 
-## 💡 Improvements With More Time
+##  Improvements With More Time
 
 1. **Database**: Replace in-memory leads store with PostgreSQL via Prisma or Supabase
 2. **Email**: Add Resend/SendGrid integration to auto-send confirmation emails
@@ -124,6 +124,6 @@ This project was built with Claude (Anthropic) as the primary AI assistant:
 9. **Perf**: Add Image component for optimized institution logos
 10. **i18n**: Add Hindi language support for wider India reach
 
-## 📊 Performance
+##  Performance
 - Build: Static page with dynamic API route
 - Lighthouse score target: 90+ (Performance, Accessibility, Best Practices, SEO)
